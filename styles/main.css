@@ -1,4 +1,4 @@
-{
+*{
     text-decoration: none;
     list-style-type: none;
     margin: 5px;
@@ -24,7 +24,6 @@
             "sidebar";
         margin: 0% 5%;
         text-align: center;
-        border: 1px solid black;
         } 
         iframe, .header, .sidebar, .main{
             max-width: 400px;
@@ -38,7 +37,6 @@
         .sidebar {
             grid-row: 10 / 200;
             max-width: 400px;
-            border: 1px solid red;
         }
         .sidebar__link, .sidebar__info {
             display: flex;
@@ -62,26 +60,23 @@
             "header header header header"
             "main main main sidebar";
         margin: 0px 2%;
-        border: 1px solid black;
         } 
 
     .header {
         grid-area: header;
         grid-row: 1 / 15;
-        border: 1px solid red;
         max-width: 700px;
     }
     
     .main {
-    grid-area: main;
-    grid-row: 15 / 100;
+        grid-area: main;
+        grid-row: 15 / 100;
     }
     
     .sidebar {
-    grid-area: sidebar;
-    grid-row: 15 / 200;
-    border: 1px solid red;
-    font-size: 12px;
+        grid-area: sidebar;
+        grid-row: 15 / 200;
+        font-size: 12px;
     }
     
     .nav {
@@ -120,13 +115,11 @@
             "header header header header"
             "main main main sidebar";
         margin: 0px 2%;
-        border: 1px solid black;
         }
     
     .header {
         grid-area: header;
         grid-row: 1 / 15;
-        border: 1px solid red;
         max-width: 1292px;
     }
     
@@ -138,7 +131,6 @@
     .sidebar {
     grid-area: sidebar;
     grid-row: 15 / 200;
-    border: 1px solid red;
     font-size: 12px;
     } 
     
@@ -173,26 +165,23 @@
             "header header header header"
             "main main main sidebar";
         margin: 0px 2%;
-        border: 1px solid black;
         }
     
     .header {
         grid-area: header;
         grid-row: 1 / 15;
-        border: 1px solid red;
         max-width: 1292px;
     }
     
     .main {
-    grid-area: main;
-    grid-row: 15 / 100;
+        grid-area: main;
+        grid-row: 15 / 100;
     }
     
     .sidebar {
-    grid-area: sidebar;
-    grid-row: 15 / 200;
-    border: 1px solid red;
-    font-size: 12px;
+        grid-area: sidebar;
+        grid-row: 15 / 200;
+        font-size: 12px;
     } 
     
     .nav {
